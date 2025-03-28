@@ -1,0 +1,80 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    color: #9d8372;
+}
+.bg-img {
+    /* The image used */
+    background-image: url("pic.jpg");
+    min-height: 690px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: block;
+  }
+  .container {
+    float: right;
+    margin: 25px;
+    width: auto;
+  }
+  
+  .topnav {
+    overflow: hidden;
+   
+  }
+  .topnav a {
+    position: relative;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 19px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1px;
+  }
+  .topnav a:hover {
+    color: #eba100;
+
+  }
+  .bg-img h2 {
+    position:absolute;
+    padding: 14px 16px;
+    font-family: Boldonse;
+    color: white;
+  }
+  .choices {
+    background-color: #9d8372;
+    display: inline-block;
+  
+  }
+  .choices img{
+    width: 32.8%;
+    height: 100%;
+    border-radius: 30px;
+    margin: 1px 0 13px  1px;
+    
+    animation: ease-in ;
+    animation-name: ease-in;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-delay: .5s;
+    
+   
+  }
+  .choices h2 {
+     text-align: center;
+     font-family: Boldonse;
+     color: black;
+     font-size: 35px;
+     font-weight: 200px;
+  }
+  
+  @keyframes ease-in {
+    0% {
+      transform: scale(0, 0);
+    }
+    50% {
+      transform: scale(1, 1);
+    }
+  }
